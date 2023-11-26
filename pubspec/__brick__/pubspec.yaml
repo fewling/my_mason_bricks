@@ -1,0 +1,45 @@
+name: {{name}}
+description: {{description}}
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod:
+  http:
+  freezed_annotation:
+  json_annotation:
+  flutter_animate:
+  go_router:
+  universal_platform:
+  firebase_core:
+  firebase_storage:
+  cloud_firestore:
+  cloud_functions:
+  faker:
+  shared_preferences:
+  logger:
+  url_launcher:
+  firebase_auth:
+  path_provider:
+  uuid:
+  responsive_builder:
+  unique_name_generator:
+  share_plus:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  build_runner:
+  freezed:
+  json_serializable:
+  custom_lint:
+  riverpod_lint:
+
+flutter:
+  uses-material-design: true
