@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:my_app/screens/base/base_screen.dart';
 
 import '../../service/app_router.dart';
+import 'base_screen.dart';
 
 final _scaffoldKeyProvider = Provider((ref) {
   return GlobalKey<ScaffoldState>();

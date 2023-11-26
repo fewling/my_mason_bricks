@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/utils/convenient_extensions.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 import '../../service/app_router.dart';
+import '../../utils/convenient_extensions.dart';
 import 'base_desktop.dart';
 import 'base_mobile.dart';
 
