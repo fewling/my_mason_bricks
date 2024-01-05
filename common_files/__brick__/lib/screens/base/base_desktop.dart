@@ -25,7 +25,7 @@ class BaseDesktop extends ConsumerWidget {
             selectedIndex: index < 0 ? 0 : index,
             onDestinationSelected: (index) {
               final location = kBaseDrawerLocations[index];
-              context.go(location.pathName);
+              context.goNamed(location.pathName);
             },
             labelType: NavigationRailLabelType.all,
             destinations: [
