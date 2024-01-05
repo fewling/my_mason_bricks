@@ -26,7 +26,7 @@ Future<void> main() async {
     try {
       FirebaseFunctions.instance.useFunctionsEmulator('localhost', 5001);
       FirebaseFirestore.instance.useFirestoreEmulator('localhost', 8080);
-      FirebaseStorage.instance.useStorageEmulator('localhost', 9199);
+      await FirebaseStorage.instance.useStorageEmulator('localhost', 9199);
       await FirebaseAuth.instance.useAuthEmulator('localhost', 9099);
     } catch (e) {
       debugPrint('Failed to connect to the Firebase Emulator Suite.');
